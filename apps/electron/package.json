@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "electron-updater": "4.6.5",
+    "hypercore": "^10.18.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

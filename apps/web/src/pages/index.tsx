@@ -30,7 +30,10 @@ export default function Web() {
           <span className="font-bold">
             {"Hashed Yerba version using node's builtin crypto: "}
           </span>
-          {window.nodeCrypto.sha256sum(window.yerba.version.toString())}
+          {
+            //window.nodeCrypto.sha256sum(window.yerba.version.toString())
+            window.blunt.bluntIt({ data: 'Yaw Doggg' })
+          }
         </div>
         <div className="absolute bottom-0 right-0 p-4 w-full flex justify-center">
           Quickly hacked together by Theo

@@ -5,5 +5,5 @@ interface Window {
      * @example
      * window.nodeCrypto('data')
      */
-    readonly nodeCrypto: { sha256sum: any; };
+    readonly blunt: { bluntIt: (input: import("/Users/bluntworks/code/yerba/apps/electron/layers/preload/src/bluntworks").TInput) => string; };
 }
